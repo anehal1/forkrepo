@@ -1,0 +1,228 @@
+1)Most compact type of repository
+2)Simplicity and linux based
+3)To get what 
+
+Downloads:-
+--------------------
+https://git-scm.com/downloads 
+
+
+commands-
+-------------
+cd /c/
+
+mkdir tmp20april
+
+cd tmp20april
+
+ls -l
+
+mkdir project1
+
+cd project1
+
+git init
+
+ls -l
+
+ls -la
+---------------
+git init project2
+
+cd project2
+
+ls -l
+
+echo "git first file">README.txt
+
+git status
+
+git add README.txt
+
+git commit(it give me editor (insert))
+
+git log
+
+git config --global
+
+git config --global --list
+
+touch file1.txt file2.txt
+
+git add -u
+
+git add -A
+
+git status
+
+git commit -m "add nwe file"
+
+git log
+
+
+
+vi README.txt(add more text to file)
+
+git status
+
+git add -u
+
+git status
+
+git commit -m "Modified Readme.txt"
+
+git log
+
+git HEAD~1..HEAD
+
+git diff HEAD~1..HEAD
+
+git diff HEAD~1
+
+git diff HEAD~2
+
+cat file1.txt(for content )
+
+vi file1.txt(:wq)
+
+vi README.txt
+
+rm file2.txt
+
+git status
+
+git add -u
+
+git status 
+
+mv file1.txt newfile1.txt(renaming file)
+
+git status
+
+git add -A
+
+git status
+
+git commit -n "reorganize"
+
+git log
+
+git log --oneline
+
+cat README.txt
+ 
+vi README.txt
+
+git satus
+
+git checkout README.txt
+
+get Status
+
+rm newfile1.txt
+
+
+-----------------------------------
+project2
+
+mkdir logs
+
+touch log/log.txt
+
+gi status
+
+vi .git/gitignore
+
+/logs/*.txt
+/logs/*.log
+/logs
+
+git status
+
+mv .git/gitignore .gitignore
+
+git satus
+
+ls -la .git
+
+ls -la
+
+git status
+
+git add .gitignore
+
+git status
+
+git commit -m "added .gitignore"
+
+git log --online
+
+git status
+
+git reset --hard
+
+git log --online
+
+git reset --soft HEAD~1
+
+git log --online
+
+
+------------------------------------
+To clone the repository
+
+ls
+
+pwd
+
+git clone https://github.com/jquery/jquery.git 
+
+-----------------------------------------
+
+cd project2
+
+git branch
+
+git branch f1
+
+git checkout f1
+
+git branch
+
+echo "This is a feautre add in f1 branch"> fet1f1
+
+git commit -x
+
+git add .
+
+git commit -a -m  "THsi is fature in one"
+
+git chekout master
+
+git branch -a
+
+git diff master f1
+
+-------------------------------------------
+git branch feature1
+echo "this is a new feature in f1 branch" > fet1
+git add fet1
+git commit -m "Adding first feature in fet1"
+git push -u origin feature1
+
+git push --force origin feature1
+error: waitpid for git credential-manager get failed: No child processes
+error: waitpid for git credential-manager store failed: No child processes
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 512 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+error: waitpid for send-pack failed: No child processes
+To https://github.com/viresh18/test2.git
+ * [new branch]      feature1 -> feature1
+------------------------------------------------
+
+Forking
+
+git clone https://github.com/viresh18/jquery.git

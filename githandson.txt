@@ -1,0 +1,128 @@
+New dir
+la -la
+git init
+ls -la
+echo "hello">readme.txt
+git status
+git add .
+git commit -m "added file1"
+git log
+vi readme.txt 
+git status
+git add -u
+git status
+git commit -m "mofied"
+git log
+git diff dd6819..a15ec6
+git diff HEAD~1..HEAD
+git diff HEAD~1..
+touch file1.txt file2.txt
+git status
+gir add -u
+git status
+git add -A
+git status
+git commit -m "added new feature"
+git log
+git diff HEAD~1
+cat file1.txt
+vi file1.txt
+	adding some code here
+vi readme.txt
+	adding files
+git status
+git add file1.txt
+git status
+git commit -m "fixed bug1"
+git add readme.txt
+git commit -m "fixed typo and added lines"
+rm file2.txt
+git status
+git add -u
+git status
+vi file3.txt
+git status
+git add file3.txt
+mv file1.txt newfile1.txt
+git status
+git add -A
+git commit -m "reorganized feature"
+git log
+vi readme.txt
+git status
+git checkout readme.txt
+git status
+cat readme.txt
+vi readme.txt
+rm newfile1.txt
+git status
+git reset --hard
+git log
+git reset --soft HEAD~1
+git log
+git status
+git commit -m "reorganized files for feature"
+git status
+git log
+git reset --hard HEAD~1
+git status
+git log
+----------------------
+touch tmp1.txt tmp.txt
+git status
+git clean -n
+git clean -f
+git status
+----------------------
+mkdir logs
+touch logs/log.txt
+git status
+vi .git/gitignore
+	/logs/*.txt
+	/logs/*.log
+	/logs
+git status
+git add .gitignore
+git commit -m "added .gitignore"
+git status
+git log
+----------------------
+git clone https://github.com/jquery/jquery.git
+cd jquery
+git log
+git log --oneline
+git log --oneline| wc -l
+git log --oneline --graph
+git shortlog
+git shortlog -sne
+git show HEAD
+git show HEAD~1
+git log --oneline
+git show HEAD~10
+git show 5642626
+git  remote
+git remote -v
+ls -la
+cat .git/config
+git branches
+git branches -r
+git tag
+cd ..
+git logs
+git remote -v
+git remote add origin https://github.com/me/myrepo.git
+git fetch
+git fetch origin
+
+git log
+git log origin /master 
+git log 
+
+
+
+
+
+
+
+
+
